@@ -1,0 +1,556 @@
+section  {
+	 animation-play-state:paused;
+}
+section:hover{
+  animation-play-state:running;
+}
+
+.bar{
+	 animation-play-state:paused;
+}
+.bar:hover{
+  animation-play-state:running;
+}
+
+.nav{
+	position: fixed;
+     top:0px;
+     left:0px;
+     z-index:2000;
+    
+}
+table{
+	position: fixed;
+     top:-13px;
+     left:10px;
+     z-index:2000;
+
+}
+a{
+	color: white;
+	text-decoration:none;
+}
+
+.UP{
+	position: fixed;
+     top:600px;
+     left:1400px;
+     z-index:2000;
+}
+
+
+
+
+#e71{
+     position: fixed;
+     top:100px;
+     left:1380px;
+     z-index:2000;
+
+}
+
+.hebg{
+     position: absolute;
+     top:160px;
+     left:310px;
+}
+.PEPG{
+	position: absolute;
+     top:235px;
+     left:380px;
+     z-index: 1;
+     border:5px #FFAC55 solid;
+     }
+#TE1{
+	position: absolute;
+     top:220px;
+     left:770px;
+     z-index: 1;
+     color: white;
+     font-size: 40px;    
+     font-family: AR DECODE;
+     
+}
+
+.TE2{
+	position: absolute;
+     top:310px;
+     left:770px;
+     z-index: 1;
+     color: white;
+     font-family: 微軟正黑體;
+     font-weight: bold;
+}
+
+.TE3{
+	position: absolute;
+     top:350px;
+     left:770px;
+     z-index: 1;
+     color: white;
+     font-family: 微軟正黑體;
+     font-weight: bold;
+}
+
+.TE4{
+	position: absolute;
+     top:390px;
+     left:770px;
+     z-index: 1;
+     color: white;
+     font-family: 微軟正黑體;
+     font-weight: bold;
+}
+
+.TE5{
+	position: absolute;
+     top:430px;
+     left:770px;
+     z-index: 1;
+     color: white;
+     font-family: 微軟正黑體;
+     font-weight: bold;
+}
+
+.PC1{
+	position: absolute;
+     top:485px;
+     left:690px;
+     z-index: 1;
+     color: white;
+     font-family: 微軟正黑體;
+     font-weight: bold;
+}
+
+.TE6{
+	position: absolute;
+     top:480px;
+     left:770px;
+     z-index: 1;
+     color: white;
+     font-family: 微軟正黑體;
+     font-weight: bold;
+}
+
+#PC2{
+	position: absolute;
+     top:555px;
+     left:380px;
+     z-index: 1;
+     color: white;
+     font-family: 微軟正黑體;
+     font-weight: bold;
+}
+
+#PC3{
+	position: absolute;
+     top:555px;
+     left:510px;
+     z-index: 1;
+     color: white;
+     font-family: 微軟正黑體;
+     font-weight: bold;
+}
+#PC4{
+	position: absolute;
+     top:255px;
+     left:1160px;
+     z-index: 1;
+     color: white;
+     font-family: 微軟正黑體;
+     font-weight: bold;
+}
+#PC5{
+	position: absolute;
+     top:560px;
+     left:655px;
+     z-index: 1;
+     color: white;
+     font-family: 微軟正黑體;
+     font-weight: bold;
+}
+
+.css_button {
+	position: absolute;
+     top:430px;
+     left:1080px;
+     z-index: 1;
+   padding: 9px 18px;
+   border: 1px solid #C7C7C7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#8ABFB7));
+   background: -webkit-linear-gradient(top, #FFFFFF, #8ABFB7);
+   background: -moz-linear-gradient(top, #FFFFFF, #8ABFB7);
+   background: -ms-linear-gradient(top, #FFFFFF, #8ABFB7);
+   background: -o-linear-gradient(top, #FFFFFF, #8ABFB7);
+   background-color: #8ABFB7;
+   box-shadow: 0px 7px 2px -5px #1A1A1A, inset 0px 0px 3px #FAF5F5;
+   -webkit-box-shadow: 0px 7px 2px -5px #1A1A1A, inset 0px 0px 3px #FAF5F5;
+   -moz-box-shadow: 0px 7px 2px -5px #1A1A1A, inset 0px 0px 3px #FAF5F5;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   border-radius: 15px;
+   text-shadow: #FF7A7A 1px 1px 0px;
+   color: #0044BB;
+   font-size: 17px;
+   font-family: '微軟正黑體';
+   text-decoration: none;
+   font-weight: bold;
+   -webkit-transition: 0.2s;
+   -moz-transition: 0.2s;
+   -o-transition: 0.2s;
+   cursor: pointer;
+   }
+.css_button:hover {
+   background: none;
+   background-color: #8ABFB7;
+   box-shadow: 0px 0px 5px 0px #AAAAAA;
+   -webkit-box-shadow: 0px 0px 5px 0px #AAAAAA;
+   -moz-box-shadow: 0px 0px 5px 0px #AAAAAA;
+   border: 1px solid #ffffff;
+   color: #470000;
+   }
+.css_button:active {
+   top: 430px;
+   position: relative;
+   }
+
+ .SEBG{
+ 	position: absolute;
+     top:630px;
+     left:180px;
+     z-index: 0;
+     font-family: 微軟正黑體;
+     font-weight: bold;
+ }
+
+ .SE1{
+ 	position: absolute;
+     top:670px;
+     left:685px;
+     z-index: 1;
+     font-family: 微軟正黑體;
+     font-weight: 20px;
+     font-size: 50px;
+ }
+
+ .SE2{
+ 	position: absolute;
+     top:765px;
+     left:680px;
+     z-index: 1;
+     font-family: 微軟正黑體;
+     font-weight: 20px;
+     font-size: 30px;
+ }
+
+.SE3{
+	position: absolute;
+     top:1115px;
+     left:350px;
+     z-index: 5;
+     font-family: 微軟正黑體;
+     font-weight: 20px;
+     font-size: 20px;
+}
+.SE4{
+	position: absolute;
+     top:1115px;
+     left:715px;
+     z-index: 5;
+     font-family: 微軟正黑體;
+     font-weight: 20px;
+     font-size: 20px;
+}
+.SE5{
+	position: absolute;
+     top:1115px;
+     left:1025px;
+     z-index: 5;
+     font-family: 微軟正黑體;
+     font-weight: 20px;
+     font-size: 20px;
+}
+.SE6{
+	position: absolute;
+     top:1420px;
+     left:435px;
+     z-index: 5;
+     font-family: 微軟正黑體;
+     font-weight: 20px;
+     font-size: 20px;
+}
+.SE7{
+	position: absolute;
+     top:1420px;
+     left:725px;
+     z-index: 5;
+     font-family: 微軟正黑體;
+     font-weight: 20px;
+     font-size: 20px;
+}
+.SE8{
+	position: absolute;
+     top:1420px;
+     left:1060px;
+     z-index: 5;
+     font-family: 微軟正黑體;
+     font-weight: 20px;
+     font-size: 20px;
+}
+
+.SEBG1{
+	position: absolute;
+     top:1600px;
+     left:180px;
+     z-index: 0;
+     font-family: 微軟正黑體;
+     font-weight: bold;
+}
+
+.SEC1{
+	position: absolute;
+     top:1650px;
+     left:685px;
+     z-index: 1;
+     font-family: 微軟正黑體;
+     font-weight: 20px;
+     font-size: 50px;
+}
+.SEC2{
+ 	position: absolute;
+     top:1750px;
+     left:650px;
+     z-index: 1;
+     font-family: 微軟正黑體;
+     font-weight: 20px;
+     font-size: 30px;
+ }
+ .SEBG2{
+	position: absolute;
+     top:2350px;
+     left:180px;
+     z-index: 0;
+     font-family: 微軟正黑體;
+     font-weight: bold;
+     border:7px #EE7700 dotted;
+     padding:30px;
+}
+
+.SEBG2_1{
+	position: absolute;
+     top:2780px;
+     left:180px;
+     z-index: 0;
+     font-family: 微軟正黑體;
+     font-weight: bold;
+     border:7px #EE7700 dotted;
+     padding:30px;
+}
+.SEC3{
+ 	position: absolute;
+     top:2400px;
+     left:730px;
+     z-index: 1;
+     font-family: 微軟正黑體;
+     font-weight: 20px;
+     font-size: 50px;
+ }
+ .SEC4{
+ 	position: absolute;
+     top:2500px;
+     left:700px;
+     z-index: 1;
+     font-family: 微軟正黑體;
+     font-weight: 20px;
+     font-size: 30px;
+ }
+ .SEC5{
+ 	position: absolute;
+     top:2700px;
+     left:300px;
+     z-index: 1;
+     font-family: 微軟正黑體;
+     font-weight: 10px;
+     font-size: 30px;
+ }
+ .SEC6{
+ 	position: absolute;
+     top:3350px;
+     left:280px;
+     z-index: 1;
+     font-family: 微軟正黑體;
+     font-weight: bold;
+     font-size: 20px;
+ }
+ .SEC7{
+ 	position: absolute;
+     top:3720px;
+     left:300px;
+     z-index: 1;
+     font-family: 微軟正黑體;
+     font-weight: 10px;
+     font-size: 30px;
+ }
+ .SEBG3{
+ 	position: absolute;
+     top:3800px;
+     left:180px;
+     z-index: 0;
+     font-family: 微軟正黑體;
+     font-weight: bold;
+     border:7px #9900FF double;
+     padding:30px;
+ }
+
+.BAN {position:relative;}
+
+.BAN img {
+  position:absolute;
+  top:-150px;
+  left:-245px;
+  /* CSS3淡出淡入效果,1秒 */
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+
+.BAN img:nth-of-type(2):hover{
+  opacity:0; /滑鼠滑入時，透明度變0/
+}
+
+.BAN1{
+	 position:absolute;
+  top:4100px;
+  left:610px;
+}
+
+.SEC8{
+	position: absolute;
+     top:4600px;
+     left:300px;
+     z-index: 1;
+     font-family: 微軟正黑體;
+     font-weight: bold;
+     font-size: 20px;
+}
+
+.SEBG4{
+ 	position: absolute;
+     top:5000px;
+     left:180px;
+     z-index: 0;
+     font-family: 微軟正黑體;
+     font-weight: bold;
+     border:7px #FFDD55 solid;
+     padding:30px;
+ }
+ .SEC9{
+ 	position: absolute;
+     top:5050px;
+     left:680px;
+     z-index: 1;
+     font-family: 微軟正黑體;
+     font-weight: 20px;
+     font-size: 50px;
+ }
+ .SEC10{
+ 	position: absolute;
+     top:5140px;
+     left:740px;
+     z-index: 1;
+     font-family: 微軟正黑體;
+     font-weight: 20px;
+     font-size: 30px;
+ }
+ .SEBG5{
+ 	position: absolute;
+     top:5330px;
+     left:180px;
+     z-index: 0;
+     font-family: 微軟正黑體;
+     font-weight: bold;
+     border:7px #FFDD55 dashed;
+     padding:30px;
+ }
+ .SEC11{
+ 	position: absolute;
+     top:5500px;
+     left:300px;
+     z-index: 3;
+     font-family: 微軟正黑體;
+     font-weight: 10px;
+     font-size: 30px;
+ }
+ .PCC1{
+ 	position: absolute;
+     top:5550px;
+     left:900px;
+     z-index: 3;
+     
+ }
+ .SEC12{
+ 	position: absolute;
+     top:5600px;
+     left:300px;
+     z-index: 3;
+     font-family: 微軟正黑體;
+     font-weight: 10px;
+     font-size: 20px;
+ }
+ .BUTT1{
+ 	position: absolute;
+     top:5750px;
+     left:300px;
+     z-index: 3;
+    
+     font-size:20px;
+ }
+ .HR2{
+ 	position: absolute;
+     top:5900px;
+     left:270px;
+     z-index: 3;
+    
+ }
+ .SEC13{
+ 	position: absolute;
+     top:6050px;
+     left:850px;
+     z-index: 3;
+     font-family: 微軟正黑體;
+     font-weight: 10px;
+     font-size: 30px;
+ 
+ }
+ .PCC2{
+ 	position: absolute;
+     top:6100px;
+     left:300px;
+     z-index: 3;
+ }
+ .SEC14{
+ 	position: absolute;
+     top:6150px;
+     left:850px;
+     z-index: 3;
+     font-family: 微軟正黑體;
+     font-weight: 10px;
+     font-size: 20px;
+ }
+.BUTT2{
+	position: absolute;
+     top:6330px;
+     left:850px;
+     z-index: 3;
+    
+     font-size:20px;
+}
+footer{
+	color:white;
+	text-align:center;
+	background-color:black;
+	position: relative;
+     top:6700px;
+	}

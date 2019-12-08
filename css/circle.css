@@ -1,0 +1,134 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+
+
+.circle-wrap {
+  margin: 50px auto;
+  width: 150px;
+  height: 150px;
+  background: #e6e2e7;
+  border-radius: 50%;
+}
+
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap .circle .mask {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+.circle-wrap .circle .mask .fill {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: #9e00b1;
+}
+
+.O1 > .circle-wrap .circle .mask.full,
+.O1 > .circle-wrap .circle .fill {
+  animation: fill ease-in-out 4s;
+  transform: rotate(140deg);
+  animation-delay:1s;
+  animation-iteration-count:infinite;
+}
+
+.O2 > .circle-wrap .circle .mask.full,
+.O2 > .circle-wrap .circle .fill {
+  animation: fill ease-in-out 4s;
+  transform: rotate(80deg);
+  animation-delay:1s;
+  animation-iteration-count:infinite;
+}
+
+.O3 > .circle-wrap .circle .mask.full,
+.O3 > .circle-wrap .circle .fill {
+  animation: fill ease-in-out 4s;
+  transform: rotate(100deg);
+  animation-delay:1s;
+  animation-iteration-count:infinite;
+}
+
+.O4 > .circle-wrap .circle .mask.full,
+.O4 > .circle-wrap .circle .fill {
+  animation: fill ease-in-out 4s;
+  transform: rotate(160deg);
+  animation-delay:1s;
+  animation-iteration-count:infinite;
+}
+
+.O5 > .circle-wrap .circle .mask.full,
+.O5 > .circle-wrap .circle .fill {
+  animation: fill ease-in-out 4s;
+  transform: rotate(90deg);
+  animation-delay:1s;
+  animation-iteration-count:infinite;
+}
+
+.O6 > .circle-wrap .circle .mask.full,
+.O6 > .circle-wrap .circle .fill {
+  animation: fill ease-in-out 4s;
+  transform: rotate(30deg);
+  animation-delay:1s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes fill {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(120deg);
+  }
+}
+
+.circle-wrap .inside-circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: #fff;
+  line-height: 130px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.O1{
+  position: absolute;
+  top: 900px;
+  left:400px;
+}
+.O2{
+  position: absolute;
+  top: 900px;
+  left:700px;
+}
+.O3{
+  position: absolute;
+  top: 900px;
+  left:1000px;
+}
+.O4{
+  position: absolute;
+  top: 1200px;
+  left:400px;
+}
+.O5{
+  position: absolute;
+  top: 1200px;
+  left:700px;
+}
+.O6{
+  position: absolute;
+  top: 1200px;
+  left:1000px;
+}
+
+
+
+

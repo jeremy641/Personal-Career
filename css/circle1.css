@@ -1,0 +1,63 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+
+.O2 > .circle-wrap1 {
+  margin: 50px auto;
+  width: 150px;
+  height: 150px;
+  background: #e6e2e7;
+  border-radius: 50%;
+}
+
+.O2 >.circle-wrap1 .circle1 .mask1,
+.O2 >.circle-wrap1 .circle1 .fill1 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.O2 >.circle-wrap1 .circle1 .mask1 {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.O2 >.circle-wrap1 .circle1 .mask1 .fill1 {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: #9e00b1;
+}
+
+.O2 >.circle-wrap1 .circle1 .mask1.full1,
+.O2 >.circle-wrap1 .circle1 .fill1 {
+  animation: fill ease-in-out 3s;
+  transform: rotate(200deg);
+}
+
+@keyframes fill {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(200deg);
+  }
+}
+
+.O2 >.circle-wrap1 .inside-circle1 {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: #fff;
+  line-height: 130px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.O2{
+position: absolute;
+  top: 900px;
+  left:700px;
+}
